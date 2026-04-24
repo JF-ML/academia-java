@@ -1,0 +1,129 @@
+Academia Java
+Jorge Fernando Marquez Lopez
+
+Chapter 1
+
+1:D,E
+La E es la version por default del main mientras la D es esta version mas 
+final que mientras es redudante no afecta a su declaracion, las otras opciones
+o tienen algun atributo no permitido ej; private o no cuentan con atributos necesarios
+como por ej; void, static
+
+2:C,D,E
+Estas opciones son las correctas porque class siempre debe ir despues que 
+el import y el package, de igual manera B no es correcta porque cuando estan
+ambos siempre tiene que ser el package y luego el import
+
+3:A,E
+Bunny es una clase, bun es una variable de referencia
+Main es un metodo y el parametro puede tener cualquier nombre no afecta que sea x
+
+4:B,E,G
+Los identificadores tienen que empezar con una letra, $ o _, ademas en el caso 
+de los simbolos tienen que ser mas largos, no puede tener puntos y true es una palabra reservada
+
+5:A,D,F
+El oso polar es elegible para GC hasta la linea 13 ya que el valor de PandaBear
+dentro de BrownBear apunto al objecto polar bear
+
+6:F
+Son 7 varibales, 2 en la linea 3(water,air), 1 en la 4(twoHumps), 1 en el parametro(distance)
+1 en la 6 (path), 1 en la 9 (age) y 1 en la 10(i)
+
+
+7:C,E
+Ya que la trampa esta en que se esta imprimiendo puro texto y no referenciando variables
+hay que ver que textos hacen match y esos son C por las cups = 0 y los white spaces
+
+8:B,D,E,H
+Esta originalmente no conteste correctamenter y que pense que la opcion A era correcta
+ya que no sabia que var no puede inicializarse a null solamente puede ser asignado a null si primero
+es inicializado a un valor no primitivo por eso C es incorrecto ya que 2 es primitivo
+y no puede ser reasignado a null y H si es correcto ya que "" es un String
+
+9:E
+Las variables locales no tienen valor por default asi que C y D son incorrectas
+El float no es correcto porque el valor correcto es 0.0 no 0
+El String hace default a null por lo que E es correcto y F incorrecto
+Mientras que B al ser un char no hace default a nada por ser un primitivo
+
+10:A,E,F
+En un valor numerico no puede haber un _ al incio, al final, ni junto a un punto decimal
+
+11:D
+Se pueden quitar los java.lang porque esta se importa por default y al estar ambas clases
+en el mismo paquete se pueden quitar ambos imports
+
+12:A,C,D
+A genera error porque no podemos declarar dos tipos en la misma linea
+C genera error porque no podemos definir un valor por default de un parametro
+D genera error porque fins esta outo of scope ya que esta dentro de su propio bloque en la linea 3
+
+13:A,B,C
+D y E no son validos porque quieren importart dos clases con el mismo nombre
+D tiene ambiguedad y no sabe cual Water class importar mientras que E esta intentando
+importar dos clases con el nombre igual
+en el caso de B y C al estar usando * y en otro el nombre literal Water si lo permite
+ya que el valor definido tiene precedencia sobre el *
+
+
+14:A,B,D,E
+A y B no compilan ya que se les esta asignando un valor con tipo incomatible a su tipo de variable
+D y E no compilan porque son primitivos y estos no pueden usar length()
+
+15:C,E,F
+A es incorrecta porque nunca esta garantizado que el garbage collection corra
+el system.gc() es una invitacion 
+B tambien es incorrecto porque nunca esta garantizado que corra el GC
+C si es correcto ya que esta es la funcion basica de GC
+D No esta garantizado que el GC corra nunca 
+E es correcto porque puede ser elegible pero el GC no esta garantizado a correr asi que termina el programa sin que sea eliminado
+F es correcto
+G Que una variable sea final solo la hace inmutable mas no una excepcion de 
+
+16:A,D
+Esta originalmente me equivoque pero lo revise con AI y para entender como funciona
+los bloques de texto yo pensaba que el primer salto 
+
+Son dos lineas ya que la primera antes de squirrel se ignora ademas de eso el /s hace quq mantenga el espacio
+en blanco al imprimirse por lo que termite no tiene espacio el / de pigeon significa qu
+ignore el salto de linea
+
+
+17:D,F,G
+brand se inicializa a null
+empty se inicializa a false
+code se inicializa a 0.0
+por estos valores estas opciones son las correctas
+
+18:B,C,F
+B es correcta porque al compilar sabemos su tipo por eso podemos llamar metodos de clase de la 
+variable 
+C no se puede usar como parametro de constructor ni variable de instancia
+F mientras que el valor de un var puede cambiar su tipo no puede en runtime
+
+19:A,D
+Solo num1 es un primitivo el num2 es un objeto de referencia Long
+De los valores el maximo es 100 asi que se se imprimiria
+
+20:C
+PoliceBox es un metodo void asi que ambos objectos apuntan a objetos default
+al imprimir p.color el objeto no tiene asignado un objeto String en su variable asi que omprime null
+
+21:D
+Primero se imprime el "7-" en el metodo main asi que tiene que ser una de las respuestas con que empiece con 7
+luego al crear al objeto se imprime "count"+"-" se imprime el valor por default de count que es 0
+
+22:C,F,G
+A es incorrecto ya que el nombre de variable es incorrecto
+B es incorrecto ya que 9L es un long que no puede ser asignado a un int
+C es correcto es un valor hexadecimal que puede ser asignado a un int
+D es incorrecto ya que 1_2.0 es un double
+E es incorrecto ya que _ no puede estar junto al punto decimal
+F es correcto
+G es correcto
+H es incorrecto ya que _ no puede estar junto al punto decimal
+
+23:A,D
+A genera error porque es una variable float y 50.0 es un double lo que no es compatible
+D genera error porque depth solo esta en scope dentro del ciclo for al estar fuera no podria ver la variable depth
