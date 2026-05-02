@@ -34,6 +34,7 @@ public class ManipuladorStrings {
         	
         	String space = " ";
         	String star = "*";
+        	
         	System.out.println(space.repeat(niveles-i)+star.repeat(2*i-1)+space.repeat(niveles-i));
         	
         }
