@@ -1,0 +1,103 @@
+Jorge Fernando Marquez Lopez
+
+Chapter 3
+
+
+1:A,B,C,E,F,G
+El switch solo soporta int, byte, short, char
+
+2:B
+Siguiendo la lógica de los if se cumple el primero de temperatura
+humidity es 8 asi que el segundo es false por lo que se ejecuta el else de Just Rigth
+3:A,D,F,H
+El for each solo funciona con arreglos y las clases que implementan Iterable asi que solo esos son validos
+
+4:F
+No immprime nada ya que al no tener default el swithc case no compila
+
+5:E
+el continue hace que no compile
+
+6:C,D,E
+El for puede ejecutarse 0 o más veces, el do while al menos una vez, no todas las colecciones sirven con for each y el switch con String necesita default si asigna valor
+
+7:B,D
+A no es correcta ya que hace da error por índice fuera de rango
+B esta bien definida por lo que compila correctamente
+C no es una definición valida
+D esta bien definida
+E no es una definición valida
+F no es una definición valida
+
+8:G
+
+Hay un error de scope además que un default no se puede usar en if
+
+9:B,C,E
+
+las opciones de break hacen que se acabe el ciclo del rabbit y pase al siguiente bunny
+continue hace que se pase al siguiente bunny por lo que termina el rabbit
+
+10:E
+continue no puede usarse en switch
+Se usan valores no contantes en el case
+además que se usa un enum y el switch es int
+
+11:A
+Al no tener break imprime 3 y no va al default
+
+12:C
+Se actualizan variables en cada iteración hasta que la condición falla y el resultado final es 23
+
+13:G
+No compila porque falta paréntesis en el if
+
+14:B,D,F
+B por el for podemos ver que su tipo es int
+D por el for podemos ver que su tipo es Character
+F B por el for podemos ver que su tipo es el mismoq que parrots que es Integer
+
+15:F
+No compila ya que no se pueden juntar cases asi debe usarse la palabra case antes de C
+
+16:A,B,D
+Para recorrer en reversa hay que empezar desde length-1 hasta 0, algunas opciones fallan por índice o loops infinitos
+
+17:B,E
+El primer loop corre varias veces, el do while al menos una vez y el último loop corta en el momento correcto
+
+18:C,E
+El pattern matching usa instanceof, el scope depende del flujo y no se pueden declarar variables en else
+
+19:E
+No compila porque snake esta fuera de scope esta declarada dentro de do while
+
+20:A,E
+El loop interno es infinito, solo se evita saliendo con break o continue etiquetado correctamente
+
+21:E
+Hay varios errores en switch como tipo no soportado, falta de yield, sintaxis incorrecta y casos duplicados
+
+22:E
+Compila bien, var funciona, el switch da 5 y el while reduce el valor hasta imprimir 5 2 1
+
+23:F
+Hay un else sin if previo, eso causa error de compilación
+
+24:G
+No existe la palabra in en for each en Java, debe ser :
+
+25:D
+No hay match exacto en el switch así que entra al default y el valor final se calcula sumando correctamente
+
+26:F
+No hay error de compilación pero el loop nunca termina porque la variable r no se actualiza correctamente
+
+27:F
+El switch expression debe retornar valor en todos los caminos, aquí falta un yield
+
+28:F
+Hay un conflicto de variables por scope, se está redeclarando una variable ya existente
+
+29:C
+El pre increment hace que el primer valor sea -1 y el loop sigue hasta que rompe la condición, terminando en 6

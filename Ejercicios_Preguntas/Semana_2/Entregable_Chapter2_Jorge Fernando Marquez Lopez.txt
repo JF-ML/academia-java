@@ -1,0 +1,70 @@
+Jorge Fernando Marquez Lopez
+
+Chapter 2
+
+
+1: A,D,G
+El == funciona tanto con primitivos como con objetos, el ! es solo para booleanos y el casting también aplica a boolean, los operadores aritméticos y bitwise no sirven con boolean
+
+2:A,B,D
+La suma se promueve automáticamente a int, entonces solo funcionan tipos compatibles con int. boolean no entra porque no es numérico y los tipos más pequeños necesitan cast
+
+3:B,C,D,F
+El problema es que 2 * ear se vuelve long y no cabe en int. Se arregla bajando el tipo a int con cast o subiendo el tipo destino a long
+
+4:B
+La trampa es (wolf=false) que asigna y devuelve false. Eso cambia toda la expresión y el xor termina siendo true
+
+5:A,C
+Solo A y C respetan el orden de precedencia
+
+6:F
+El cast se aplica solo a fruit no a toda la suma. Como hay un float, todo se promueve y luego no cabe en long
+
+7:D
+Se evalúa paso a paso, la primera expresión da true, la segunda no se evalúa completa por la condición y el pre decremento cambia el valor antes de comparar
+
+8:A
+El post increment devuelve el valor original antes de aumentar, además los operadores compuestos hacen cast automático
+
+9:A,D,E
+El post increment imprime el valor anterior, algunas partes no se ejecutan por corto circuito y el ternario depende de la primera condición
+
+10:G
+las operaciones los convirtieren a int por lo que no caben en el data type de destino
+11:D
+La multiplicación y el modulo tiene la misma prioridad en el orden de operaciones asi que siguiendo la
+operación simplemente se evalúa de izquierda a derecha
+
+12:D
+El pre increment cambia el valor primero y luego lo usa el post lo usa primero y luego cambia
+
+13:F
+Se respeta la precedencia, primero negación luego operadores lógicos y evaluando paso a paso se obtiene el resultado
+
+14:B,E,G
+La respuesta E es correcta por lo que la A es incorrecta, B es correcta por lo que C es incorrecta
+D es incorrecta al igual que F
+
+15:D
+El operador ternario recibe 3 valores x ? y = z
+
+16:B
+Una expresión se vuelve long y se intenta guardar en int lo que causa error, las demás líneas son válidas
+
+17:C,F
+El post increment usa el valor anterior y luego los valores cambian paso a paso hasta llegar al resultado final
+
+18:C
+Solo los paréntesis pueden cambiar el orden de operación
+
+19:B,F
+El pre increment se aplica antes de usar el valor y además hay overflow en byte lo que genera un número negativo
+
+20:A,D,E
+La opción B es falsa ese operador no cambia un valor boolean ese es !
+La opción C es falsa
+La es verdadera ! solo es para valores boolean
+
+21:E
+El complemento bitwise sigue la regla de cambiar signo y restar uno y luego el pre decremento reduce el valor antes de imprimir
