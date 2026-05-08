@@ -1,0 +1,89 @@
+Chapter 5
+
+Jorge Fernando Marquez Lopez
+
+1: A,E
+Las variables de instancia y staticas pueden ser marcadas como final asi que A es correcta
+La E es correcta ya que un primitivo marcado final que ya se asigno no puede ser modificado
+
+2: B,C
+La opcion D es incorrecto ya que java es case sensitive y es Public no public
+La E es incorrecta ya que void ya es un return type
+La F es incorrecta ya que no se puede poner notas a los metodos
+
+3:A,D
+Solo estas dos opciones usan las combinaciones de modificadores
+de manera legal ya que los otros tienen doble tipo o no respetan el orden
+
+4:A,B,C,E
+El 6 puede auto ajustarse para los valores de int, ong y double 
+Ademas que puede ser autoboxeado a un Integer
+Solo el Long y Double no son validos
+
+5:A,C,D
+Estas son las opciones validas ya que regresan el tipo de dato correcto
+
+6:A,B,F
+Hay varias reglas de los varags y estas opciones son las que lo utilizan correctamente
+La opcion C declara el varag como primer parametro
+
+7:D,F
+Solo estas opciones mandan correctamente los datos que son un boolean
+y luego un varag de longitud 2
+La opcion E no declara correctamente su arreglo
+
+8:D
+
+9:B,C,D,F
+Por temas de privacidad de paquetes estas lineas no compilan
+
+
+10:B
+Al inicializarse se coloca el Lenngth en 5 e inmediatamente cambia a 10
+Al ser metodos estaticos los dos swings() se ejecutan correctamente
+
+11:B,E
+La linea 10 no compila ya que el metodo estatico no puede llamar un metodo de instancia
+
+
+12:B
+girafffe y name son efectivamente finales ya que una vez se declare no se cambian
+los valores asi que podriamos agregarles final y seguiria compilando
+
+
+13:D
+length es statico asi que al asignarse el valor 8 eso es para la clase
+
+14:E
+No compila la linea 4, 11,15 y la 12
+
+15:B
+La unica opcion que importa correctamente es la B
+La opcion A es incorrecta ya que es static
+La opcion C no tiene sentido
+La opcion D,E y F tienen errores en la syntaxis
+
+16:E
+Se imprimen los metodos de la linea 5
+Y dos veces los de la linea 11 por lo que
+resulta int-Object-Object
+
+17:B
+La variable de la linea 8 se queda con valor 
+asi que ese es el valor que se imprime
+
+18:B,D,E
+Ya que no se reasignan las referencias asi que s1 se queda con el valor
+s2 si se le agrega el b
+y a s3 si se le asigna el valor de a
+
+19:B,C,E
+Las variables estan asignadas a final asi que estas
+opciones son las unicas que pueden insertarse
+sin que haya error de compilacion
+
+20:A,E
+
+21:B,D
+Solo estas opciones son overloads validos
+ya que por los tipos asignados solo se acepat algunos cambios

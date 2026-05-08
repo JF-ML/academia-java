@@ -1,0 +1,93 @@
+Jorge Fernando Marquez Lopez
+
+Chapter 4
+
+1:F
+Un String no puede almacenar un int
+
+2:C,E,F
+C se esta declarando como un tipo beans que proablemente no existe sino es el nombre de la variable
+E y F se esta declarando el arreglo sin definir su tamaño, en el caso del arreglo 2d se tiene que definir la primera dimension
+
+3:A,C,D
+B no es valida porque no existe el 40 de Marzo
+E no es valida ya que 2023 no es año bisiesto
+F utiliza incorrectamente el Enum
+
+4:A,C,D
+A es correcta ya que esta usando equals y se llama el mismo objeto de la string pool
+C usa inter lo que hace que se compare las referencias
+D igual compara las referencias y son la misma
+
+5:B
+Empezamos por aaa luego en la posicion 1 ponemoes el bb por lo que tenemos abbaa
+luego en la posicion 4 el ccc por lo que abbaccca
+
+6:C
+No compila la linea 24 y 25
+24 ya que al hacer round con un double regresa un long a una variable int
+25 ya que Math.random regresa un double no un float;
+
+7:A,E
+viendo las horas y sus valores GMT podemos sacarlo
+la primera seria 5 + 4GMT = 9 la segunda 9 + 6GMT = 15
+con eso podemos saber que la primera es correcta y que aunque no lo parezca
+solo son 6 horas de diferencia
+
+8:A,B,F
+Los indices inician en 0 por lo que las opcion A es correcta
+Para B se reemplazan los caracteres del 2 al 3 por lo que se pierde uno de longitud
+F es similar a B se reemplazan 3 caracteres con 1 asi que ahora el 5 esta en la posicion 2
+
+9:A,C,F
+Los arreglos siempre empiezan por indice 0
+Su tamaño es fijo
+Al hacer uso del equals se hace comparacion de objetos asi que regresa falso
+
+10:A
+
+11:E
+LocalDate no tiene metodos para agregar horas
+
+12:A,D,E
+Indent y Stripleading se cancelan uno al otro
+La primera linea imprime el indice 1 y 2 al ser basado en cero son 12
+La segunda linea imprime un espacio en blanco
+La tercera linea imprime del indice 7 en adelante por lo tanto seria 78
+
+13:B
+El String es inmutable mientras StringBuilder no por lo que el primero
+no es modificado y el segundo si
+
+14:A,F
+
+15:C,E
+Primero se ordenan numeros luego mayusculas y luego minusculas por lo que ea la C
+Con el metodo de Binary Search el resultado es -3
+
+16:A,B,G
+De base tenemos 11 caracteres ya que /n y // son caracteres especiales y cuentan como 1
+Luego con el indent se agregan 2 caracteres por linea al ser 2 eso son 4 mas uno al final para equilibrar
+asi que 5 por lo que tenemos 16
+Por ultimo el translate cambia el //t por /t asi que tenemos 10
+
+17:A,G
+A es correcta ya que el segundo indice no es inclusivo por lo que solo imprime
+la primera posicion no la 2 por esto tanto la opcion B y D son incorrectas
+La opcion G es correcta ya que no puedes imprimir desde las 6 pero antes de la 5 
+
+18:C,F
+
+19:A,B,D
+Compare regresa un integer positivo cuando el primer arreglo es mas grande
+por lo que A es correcto
+Mismatch regresa un integer positivo cuando los arreglos son diferentes
+
+20:A,D
+
+21:A,C
+A simplemente llama la funciona de reversa que es el metodo dfault para esto
+La opcion C es la unica que agrega la cadena reversa y ademas elimina la anterior
+
+22:A
+Las fechas son inmutables asi que los metodos add son ignorados
